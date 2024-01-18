@@ -19,14 +19,7 @@ function ListaMetas() {
 
     return (
         <div className='contenedor-principal'>
-            <input
-                className="input"
-                type="text"
-                value={nuevaMeta}
-                onChange={(e) => setNuevaMeta(e.target.value)}
-            />
-            
-            ))}
+         
         </div>
     );
 }
